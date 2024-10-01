@@ -2,3 +2,4 @@ node_modules
 db/
 sqlite_schema
 .env
+dist

@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "knex": "node --import tsx ./node_modules/knex/bin/cli.js",
+    "build": "tsup src",
     "lint": "eslint src --ext .ts --fix"
   },
   "keywords": [],
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
-    "eslint": "^8.57.1"
+    "eslint": "^8.57.1",
+    "tsup": "^8.3.0"
   }
 }
